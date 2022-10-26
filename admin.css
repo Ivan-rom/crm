@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    font-size: 16px;
+    background-color: rgb(243, 243, 243);
+}
+
+.btns {
+    background: #ffffff;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display: flex;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a.btn {
+    width: 50%;
+    text-decoration: none;
+    color: #000;
+    height: 100vh;
+    padding: 5px;
+    border-radius: 0;
+}
+
+
+.btn {line-height: 100vh;}
+.go-back,
+.go-back a.btn {
+    z-index: 1;
+    line-height: 16px;
+}

@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+}
+
+form {
+	background: white;
+    min-width: 200px;
+    max-width: 450px;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -75%);
+    z-index: 999;
+    padding: 15px;
+}
+
+
+input,
+input[type="search"] {
+    width: calc(100% - 12px);
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    box-shadow: 0 0 5px #34495e;
+}
+
+.form-title {
+    margin-bottom: 5px;
+}
+
+.main-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.btn {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+  -webkit-appearance: none;
+}

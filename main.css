@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+select,
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 2px 5px;
+    vertical-align: middle;
+    border: 1px solid #cccccc;
+}
+
+.btn {
+    background: none;
+    border: none;
+    transition: .2s;
+}
+
+.btn:hover {
+    background-color: #34495e;
+    color: white;
+}
+
+a.btn {
+    text-decoration: none;
+    color: #000;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+.not-found {margin: 5px;}
+input {height: 24px;}
+.delete-btn:hover {background-color: rgb(202, 50, 50);}
+.hidden {display: none;}
+
+.go-back {
+    position: fixed;
+    top: 5px;
+  	z-index: 999;
+}
